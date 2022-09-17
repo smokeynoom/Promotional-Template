@@ -1,0 +1,113 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+p,
+ul {
+    font-size: 20px;
+    color: rgb(114, 83, 200);
+}
+
+p {
+    margin-left: 21px;
+}
+
+h1 {
+    color: darkslateblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h2 {
+    color: lime;
+    text-decoration: underline;
+}
+
+.credits {
+    text-align: right;
+}
+
+::selection {
+    color: red;
+}
+
+.bhawan img:hover {
+    transform: translateY(-10px);
+}
+
+.gate img:hover {
+    transform: translateY(-10px);
+}
+
+.parliament img:hover {
+    transform: translateY(-10px);
+}
+
+.house img:hover {
+    transform: translateY(-10px);
+}
+
+
+.intro {
+    border: solid 4px orange;
+    background: radial-gradient(lightgreen, lightseagreen);
+    margin-bottom: 15px;
+}
+
+.bhawan {
+    border: solid 4px orange;
+    background: radial-gradient(lightgreen, lightseagreen);
+    margin-bottom: 15px;
+}
+
+.gate {
+    border: solid 4px orange;
+    background: radial-gradient(lightgreen, lightseagreen);
+    margin-bottom: 15px;
+}
+
+.house {
+    border: solid 4px orange;
+    background: radial-gradient(lightgreen, lightseagreen);
+    margin-bottom: 15px;
+}
+
+.parliament {
+    border: solid 4px orange;
+    background: radial-gradient(lightgreen, lightseagreen);
+    margin-bottom: 15px;
+}
